@@ -368,7 +368,11 @@ li {
 
 .footer .input-conteiner {
 	display: block;
-	width: 270px;
+	width: 231px;
+}
+
+.footer .input-conteiner:not(:last-child) {
+	margin-right: 70px;
 }
 .footer .logo {
 	display: block;
@@ -420,9 +424,25 @@ li {
 	justify-content: space-between;
 }
 
+.footer .socialnetwork-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 44px;
+	height: 44px;
+	background-color: var(--acent-text-color);
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
 .footer .socialnetwork-icon:not(:last-child) {
-	display: block;
+	/*  display: block;   */
 	margin-right: 10px;
+}
+
+.input-conteiner-join {
+	display: block;
 }
 
 /* PORTFOLIO */
