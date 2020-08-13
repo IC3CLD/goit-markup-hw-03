@@ -534,10 +534,6 @@ li {
 	line-height: 2.0;
 	letter-spacing: 0.06em;
 
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 4px;
-	padding-top: 20px;
 }
 .projects .sub-title {
 	color: var(--secondary-text-color);
@@ -547,7 +543,8 @@ li {
 	font-size: 16px;
 	line-height: 1.87;
 
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 20px;
+}
+
+.project-text {
+	margin: 20px 24px;
 }
