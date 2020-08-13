@@ -310,6 +310,17 @@ li {
 	margin-right: 10px;
 }
 
+.social-icon-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	background-color: var(--acent-text-color);
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
 /* clients */
 .client {
 	padding-top: 94px;
@@ -352,6 +363,7 @@ li {
 .footer .conteiners {
 	display: flex;
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .footer .input-conteiner {
@@ -365,6 +377,7 @@ li {
 	color: var(--text-white-color);
 	text-decoration: none;
 }
+
 .footer .contact {
 	color: var(--secondary-text-color);
 	font-style: normal;
@@ -375,6 +388,7 @@ li {
 }
 .footer .adress {
 	color: var(--text-white-color);
+	display: block;
 }
 
 .footer .connect {
