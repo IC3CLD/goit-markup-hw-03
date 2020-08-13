@@ -319,8 +319,12 @@ li {
 	align-items: center;
 	width: 44px;
 	height: 44px;
-	background-color: var(--acent-text-color);
+	background-color: white;
 	border-radius: 50%;
+}
+
+.social-icon-item:hover {
+	background-color:var(--acent-text-color);
 }
 
 /* clients */
@@ -448,6 +452,10 @@ li {
 	border-radius: 50%;
 }
 
+.socialnetwork-icon-footer:hover {
+	background-color: var(--acent-text-color);
+}
+
 .socialnetwork-icon-footer:not(:last-child) {
 	margin-right: 10px;
 }
@@ -548,3 +556,4 @@ li {
 .project-text {
 	margin: 20px 24px;
 }
+
