@@ -303,10 +303,12 @@ li {
 
 .team .socialnetwork-list {
 	display: flex;
-	max-width: 207px;
 	justify-content: space-between;
 	margin-left: 32px;
+	margin-bottom: 30px;
+	margin-right: 30px;
 }
+
 .team .social-icon:not(:last-child) {
 	margin-right: 10px;
 }
@@ -319,7 +321,6 @@ li {
 	height: 44px;
 	background-color: var(--acent-text-color);
 	border-radius: 50%;
-	margin-bottom: 30px;
 }
 
 /* clients */
