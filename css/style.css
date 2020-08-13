@@ -15,6 +15,7 @@ html {
 	--text-white-color: #ffffff;
 	--footer-background-color: #2f303a;
 	--team-background-color: #f5f4fa;
+	--footer-socials-color: rgba(255, 255, 255, 0.1);
 }
 /* основные правила */
 body {
@@ -434,6 +435,22 @@ li {
 	background-color: var(--acent-text-color);
 	border-radius: 50%;
 	margin-bottom: 30px;
+}
+
+.socialnetwork-icon-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	background-color: var(--footer-socials-color);
+	border-radius: 50%;
+}
+
+.socialnetwork-icon-footer:not(:last-child) {
+	margin-right: 10px;
+}
+
 }
 
 .footer .socialnetwork-icon:not(:last-child) {
