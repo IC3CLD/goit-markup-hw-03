@@ -379,6 +379,9 @@ li {
 }
 
 .footer .contact {
+	display: block;
+	margin-bottom: 9px;
+
 	color: var(--secondary-text-color);
 	font-style: normal;
 	font-weight: 400;
@@ -386,9 +389,13 @@ li {
 	line-height: 1.71;
 	text-decoration: none;
 }
+
+.footer .contact:last-child {
+	margin-bottom: 0px;
+}
+
 .footer .adress {
 	color: var(--text-white-color);
-	display: block;
 }
 
 .footer .connect {
