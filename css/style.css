@@ -153,6 +153,8 @@ li {
 	color: var(--secondary-text-color);
 }
 
+
+
 .site-nav .contacts {
 	margin-left: auto;
 }
@@ -382,7 +384,7 @@ li {
 }
 
 .footer .input-conteiner:not(:last-child) {
-	margin-right:;
+	margin-right: 30px;
 }
 .footer .logo {
 	display: block;
@@ -518,6 +520,7 @@ li {
 .projects .list {
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 94px;
 }
 .projects .item {
 	width: 370px;
