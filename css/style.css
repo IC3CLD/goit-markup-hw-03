@@ -411,6 +411,7 @@ li {
 .footer .connect {
 	display: block;
 	margin-bottom: 20px;
+	margin-top: 10px;
 
 	color: var(--text-white-color);
 	font-weight: 700;
