@@ -116,6 +116,7 @@ li {
 	font-weight: 700;
 	padding-top: 24px;
 	padding-bottom: 25px;
+	margin-right: 93px;
 }
 
 /* nav */
@@ -123,7 +124,7 @@ li {
 	display: flex;
 }
 .site-nav .item:first-child {
-	margin-left: 85px;
+	
 }
 .site-nav .item:not(:last-child) {
 	margin-right: 50px;
@@ -165,6 +166,7 @@ li {
 .hero {
 	padding-top: 200px;
 	padding-bottom: 200px;
+	
 }
 .hero .title {
 	max-width: 696px;
@@ -187,10 +189,11 @@ li {
 
 .features .list {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .features .item {
-	max-width: 270px;
+	width: 270px;
 }
 .features .item:not(:last-child) {
 	margin-right: 30px;
@@ -268,7 +271,7 @@ li {
 
 .team .list {
 	display: flex;
-
+	flex-wrap: wrap;
 	text-align: center;
 }
 
@@ -276,6 +279,7 @@ li {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	background-color: var(--text-white-color);
+	width: 270px;
 }
 
 .team .item:not(:last-child) {
@@ -340,7 +344,7 @@ li {
 
 .client .list {
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .client .item:not(:last-child) {
@@ -349,7 +353,7 @@ li {
 
 .client .item {
 	border: 1px solid grey;
-	width: 270px;
+	width: calc((100% - 30px * 5) / 6);
 	padding-top: 22px;
 	padding-bottom: 22px;
 	border-radius: 4px;
@@ -374,11 +378,11 @@ li {
 
 .footer .input-conteiner {
 	display: block;
-	width: 231px;
+	width: 270px;
 }
 
 .footer .input-conteiner:not(:last-child) {
-	margin-right: 70px;
+	margin-right:;
 }
 .footer .logo {
 	display: block;
@@ -411,7 +415,7 @@ li {
 .footer .connect {
 	display: block;
 	margin-bottom: 20px;
-	margin-top: 10px;
+	padding-top: 10px;
 
 	color: var(--text-white-color);
 	font-weight: 700;
@@ -470,6 +474,7 @@ li {
 
 .input-conteiner-join {
 	display: block;
+	width: 270px;
 }
 
 /* PORTFOLIO */
@@ -506,6 +511,9 @@ li {
 
 /* projects */
 .projects {
+	margin: auto;
+    max-width: 1200px;
+    padding: 0 15px;
 	padding-bottom: 94px;
 }
 
@@ -514,7 +522,7 @@ li {
 	flex-wrap: wrap;
 }
 .projects .item {
-	max-width: 370px;
+	width: 370px;
 	background-color: var(--text-white-color);
 	border: 1px solid #eeeeee;
 }
